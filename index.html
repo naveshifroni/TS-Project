@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title> Colours App </title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.0-beta1 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<!-- nav bar -->
+
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">TS Pro</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Pick A Colour</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cities2.html">Dream City</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="targil3.html"> Bubble Sort </a>
+        </li>
+       <li class="nav-item">
+        <a class="nav-link" href="animals.html"> Animals Race </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="cards.html"> Cards </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="richdudes.html"> Rich Dudes App </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="tasks.html"> Task Manager </a>
+      </li>
+       
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ex color -->
+<div class="bg-img-color">
+  <div class="container">
+<div class="color-switch">
+    <div class="switch__item form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+      <label class="form-check-label" for="inlineRadio1">Explore Colour One</label>
+    </div>
+    <div class="switch__item form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <label class="form-check-label" for="inlineRadio2"> Explore Colour Two </label>
+    </div>
+</div>
+
+    <div class="rounded p-2 w-100 button-pick d-flex flex-column">
+
+      <button class="btn button-pick" id="btnPick"> SAVE COLOUR 1/2 </button>
+<div class="container d-flex justify-content-center flex-column text-center">
+      <h4 for="" class="m-2 w-100" > Add Colour To Favourites </h4>
+      <div for="" class="m-2 w-100"> Enter Colour Name </div>
+      <input type="text" class="text-center" id="input-favourite" > 
+      <div class="btn btn-success" id="button-favourites"> Save Colour </div>
+      </div>
+    </div>
+    
+    
+    <form class="d-flex color-inputs">
+
+
+      <div class="col input-width">
+        <div class="mb-3">
+          <label for="red-input" class="form-label">Red Value</label>
+          <input min="0" max="255" type="number" id="red-input" class="form-control color-input" placeholder="255"
+            aria-describedby="helpId">
+          <small id="helpId" class="text-muted">Red Color</small>
+        </div>
+      </div>
+
+      <div class="col input-width">
+        <div class="mb-3">
+          <label for="green-input" class="form-label">Green Value</label>
+          <input min="0" max="255" type="number" id="green-input" class="form-control color-input" placeholder="255"
+            aria-describedby="helpId">
+          <small id="helpId" class="text-muted">Green Color</small>
+        </div>
+      </div>
+
+      <div class="col input-width">
+        <div class="mb-3">
+          <label for="blue-input" class="form-label">Blue Value</label>
+          <input min="0" max="255" type="number" id="blue-input" class="form-control color-input" placeholder="255"
+            aria-describedby="helpId">
+          <small id="helpId" class="text-muted">Blue Color</small>
+        </div>
+      </div>
+    </form>
+       <div class="container d-flex flex-row justify-content-center">
+    <div id="box" class="rounded p-5 w-70 m-3"> Color 1 is </div>
+ 
+
+  <div id="box2" class="rounded p-5 w-70 m-3"> Color 2 is </div>
+</div>
+<div>
+
+  <h2 class="favourites-section"> Selected Colours Preview: </h2>
+
+  <div id="favourites-display" class="container d-flex flex-wrap">
+
+  </div>
+
+</div>
+
+  </div>
+</div>
+
+  <script type="module" src="./js/colors/color-main.js"></script>
+<!-- Bootstrap JavaScript Libraries -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+  integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+
+
+</body>
+
+</html>
+
+

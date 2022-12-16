@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title> Task Manager </title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css">
+
+  <!-- Bootstrap CSS v5.2.0-beta1 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+<!-- nav bar -->
+
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">TS Pro</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Pick A Colour</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cities2.html">Dream City</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="targil3.html"> Bubble Sort </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="animals.html"> Animals Race </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cards.html"> Cards </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="richdudes.html"> Rich Dudes App </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tasks.html"> Task Manager </a>
+        </li>
+
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- to do manager ex -->
+<div id="tasks-bg">
+  <div class="container">
+    <div class="row">
+      <div class="inputs-tasks">
+        <label class="task-label"> Add Task Description </label>
+      <input class="task-input" id="todo-description" type="text" placeholder="Task Description">
+      <label class="task-label"> Add Dead Line </label>
+      <input class="task-input" id="add-date" type="date" placeholder="End date">
+      
+      </div>
+      <div class="validate d-none" id="validate"> Please enter a valid end date </div>
+      <button id="btn-add-todo" class="btn btn-info text-center"> Add Task </button>
+    </div>
+
+    <div id="tasks" class="tasks"></div>
+    <div class="d-flex">
+    <div class="btn btn-info button-clear" id="clear-button"> Clear Completed Tasks </div>
+    </div>
+  </div>
+
+  
+</div>
+  <script type="module" src="./js/tasks/tasks-app.js"></script>
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

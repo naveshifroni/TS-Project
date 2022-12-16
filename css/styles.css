@@ -1,0 +1,378 @@
+/* index color page css */
+
+.button-pick {
+    display: flex;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 15px;
+
+}
+
+#btnPick {
+    background-color: rgb(73, 156, 156);
+    color: white;
+}
+
+#btnPick:hover {
+    background-color: rgb(182, 106, 106);
+}
+
+#button-favourites {
+
+    background-color: rgb(73, 156, 156);
+    margin: auto;
+    margin-top: 15px;
+    width: 200px;
+}
+
+#input-favourite {
+    width: 200px;
+    margin: auto;
+    height: 30px;
+    border-radius: 6px;
+}
+
+#button-favourites:hover {
+    background-color: rgb(182, 106, 106);
+}
+
+.favourites-section {
+
+    margin: auto;
+    text-align: center;
+}
+
+.color-input {
+    width: 180px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.color-inputs {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.input-width {
+    width: 33vw;
+}
+
+.color-switch {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: darkviolet;
+    padding-top: 30px;
+
+
+}
+
+.color-inputs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.switch__item {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.fav-fav {
+    font-size: 25px;
+    color: beige;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 13px;
+    border-radius: 10px;
+}
+
+/* cards page css */
+.war-cards{
+    display: flex;
+}
+
+.war-card {
+    width: 40vw; 
+   
+
+
+text-align: center;
+
+}
+
+
+
+.war-card-display {
+    width: 180px;
+} 
+
+.line {
+width: 10px;
+    background-color: rgb(170, 54, 54);
+   
+
+}
+
+#players-packs-display {
+    display: flex;
+}
+.pack-display{
+    width: 40vw;
+    padding: 20px;
+}
+
+.win-cards {
+    width: 60px;
+
+}
+
+
+
+/* rich dudes css  */
+
+#back-money {
+    background-image: url("../images/money4.jpg");
+    background-size: 33.3%;
+    background-position: 0px -20px;
+
+}
+
+.rich-dude-card {
+    width: 200px !important;
+    height: 400px !important;
+}
+
+
+
+.dude-heading {
+    color: magenta;
+    text-align: center;
+
+}
+
+#rich-dudes-display {
+    height: 100vh;
+}
+
+.bg-img-color {
+    background-image: url("../images/colors5.jpg");
+    background-size: 100%;
+    background-repeat: repeat-y;
+
+}
+
+.pack-display {
+    width: 40vw;
+}
+
+.auto-complete-form__wrapper {
+    margin: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input {
+    width: 250px;
+}
+
+ 
+
+
+.heading {
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: "lato";
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    width: 500px;
+    margin: auto;
+    padding: 15px;
+}
+
+
+
+.animal-show-case img {
+    margin: 8px;
+    padding: 8px;
+    width: 100px;
+    cursor: pointer;
+
+}
+
+.chosen-animal {
+    border-radius: 8px;
+    border: 3px dashed dodgerblue;
+}
+
+
+
+
+.full__page_container {
+    padding: 20px;
+    height: 100vh;
+    font-family: lato;
+    position: relative;
+    z-index: 2;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+/* cities ex css */
+.full{
+    background-image: url("../images/clouds.jpg");
+    background-size: 100vw;
+    background-repeat: repeat-y;
+}
+.cities-switch {
+    display: flex;
+    flex-direction: column;
+}
+
+.the-cities {
+    margin: 3px;
+    padding: 3px;
+    font-size: 17px;
+    justify-content: center;
+    text-align: center;
+}
+
+.the-cities:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+}
+.name-list {
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+   margin: 18px auto;
+    display: grid;
+    
+}
+.name-item {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.name-item:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+}
+#input2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+#chosen-cities-btn {
+    color: black;
+    background-color: rgb(240, 155, 124);
+}
+
+#chosen-cities-btn:hover {
+    color: black;
+    background-color: rgb(243, 132, 92)
+}
+
+.inner-link{
+ color: rgb(243, 132, 92);
+ text-decoration: none;
+}
+.inner-link:hover {
+    color: magenta;
+ 
+}
+.heading5{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+#background {
+    width: 100vw;
+    position: absolute;
+    z-index: 1;
+
+}
+
+#form {
+    z-index: 2;
+    position: absolute;
+    margin: 30px;
+
+}
+
+.divcenter {
+    justify-content: center;
+    text-align: center;
+
+}
+
+#bubbles {
+    background-image: url("../images/bubbles2.jpg");
+    background-size: 33.333vw;
+    height: 100vh;
+}
+
+/* tasks css */
+
+#tasks-bg {
+    background-image: url("../images/tasks.jpg");
+    background-size: 33.3333vw;
+    height: 100vh;
+    
+
+}
+#btn-add-todo{
+    width: 50vw;
+    margin: auto;
+}
+.inputs-tasks{
+    display: flex;
+  flex-wrap: wrap;
+}
+.task{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.task-input{
+    width: 200px;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 3px 4px;
+}
+.task-label{
+    margin: 10px auto;
+    font-size: 25px;
+    background-color: rgb(240, 155, 124);
+    border-radius: 10px;
+    box-shadow: 3px 6px;
+    padding: 7px;
+}
+.button-clear{
+    width: 25vw;
+    margin: 8px auto;
+}
+.validate{
+    text-align: right;
+    color: red;
+    font-size: 17px;
+    font-style: oblique;
+    
+}
+
