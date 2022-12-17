@@ -183,7 +183,7 @@ width: 10px;
  
 
 
-.heading {
+.heading_12 {
     display: flex;
     font-size: 25px;
     justify-content: center;
@@ -195,6 +195,12 @@ width: 10px;
    /*  width: 500px; */
     margin: auto;
     padding: 15px;
+    
+}
+@media (max-width: 700px){
+.heading_12{
+    width: 250px;
+}
 }
 
 
